@@ -1,0 +1,174 @@
+{
+    "main": {
+        "fullName": "Natasha Parisella",
+        "name": "Natascia",
+        "occupation": "Creative Full Stack Developer",
+        "image": "profilepic.jpg",
+        "bio": "Creative full-stack web developer, proficient in Javascript and passionate about React. ",
+        "contactMessage": "Get in touch with me !",
+        "email": "nat.parisella@gmail.com",
+        "address": {
+            "city": "Berlin",
+            "zip": "12055"
+        },
+
+        "resumedownload": "https://drive.google.com/file/d/1iGtP4-Y0LtxrkDmgqRsZJyUux4xarbvr/view?usp=sharing",
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/natascia-parisella/",
+                "className": "fa fa-linkedin"
+            },
+
+            {
+                "name": "github",
+                "url": "https://github.com/natasha8",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skill_message": "My Programming Language Proficiency",
+        "education": [
+            {
+                "school": "DCI - Digital Career Institute ",
+                "degree": "Full Stack Web Developer",
+                "graduated": "November 2021 - November 2022",
+                "description": ""
+            },
+            {
+                "school": "Spiced Academy",
+                "degree": "Full Stack Web Developer",
+                "graduated": "June -  August 2020",
+                "description": ""
+            }
+        ],
+        "work": [
+            {
+                "company": "DCI - Digital Career Institute",
+                "title": "Class Tutor",
+                "years": "February 2022 - Present",
+                "description": "Assisting my fellow students with the daily tasks and reviewing notions studied during class.",
+                "city": "Berlin"
+            },
+            {
+                "company": "Zola",
+                "title": "Head Waitress",
+                "years": "Nov 2015 - Dec 2019",
+                "description": "Italian Pizzeria",
+                "city": "Berlin"
+            },
+            {
+                "company": "Various ",
+                "title": "Bartender, Promoter, Cashier",
+                "years": "Jun 2012 - Oct 2015",
+                "description": "working for different party, clubs, festival",
+                "city": "London / Ibiza"
+            },
+            {
+                "company": "Proud Cabaret",
+                "title": "Cocktail Server/Cloakroom Assistant",
+                "years": "Oct 2011 - May 2012",
+                "description": "Busy Burlesque Cabaret",
+                "city": "London"
+            },
+            {
+                "company": "H & M ",
+                "title": "Sales Advisor",
+                "years": "Jan 2008 - May 2011",
+                "description": "Busy Retail Shop",
+                "city": "London"
+            }
+        ],
+        "skills": [
+            {
+                "name": "Html/Css",
+                "level": "80%"
+            },
+            {
+                "name": "JavaScript",
+                "level": "80%"
+            },
+            {
+                "name": "React",
+                "level": "80%"
+            },
+            {
+                "name": "React Native",
+                "level": "50%"
+            },
+            {
+                "name": "Tailwind",
+                "level": "90%"
+            },
+            {
+                "name": "Vue",
+                "level": "30%"
+            },
+            {
+                "name": "PostgresQl",
+                "level": "50%"
+            },
+
+            {
+                "name": "Firebase",
+                "level": "80%"
+            },
+            {
+                "name": "Node",
+                "level": "80%"
+            }
+        ],
+
+        "interest": [
+            {
+                "name": "Crypto/Meta/Blockchain/AI"
+            },
+            {
+                "name": "Video Editing/Motion Graphics/Photography"
+            },
+            {
+                "name": "Music/Events"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": " Secret Keywords PromoPool",
+                "description": "Private Promo pool for music, here you can listen new track, send a feedback and download the promo packadge",
+                "category": "React, Firebase",
+                "image": "skphome.JPG",
+                "url": "https://promosecretkeywords.net"
+            },
+            {
+                "title": " GoTaxy",
+                "description": "Native app for Taxi Rides",
+                "category": "React Native, Google API, Tailwind, Expo",
+                "image": "gotaxipic.JPG",
+                "url": ""
+            },
+            {
+                "title": " Amazon Clone",
+                "description": "e-commerce website",
+                "category": "Next, Firebase, Stripe ",
+                "image": "amazon.JPG",
+                "url": "https://amazon-clone-2-0.vercel.app/"
+            },
+            {
+                "title": " Social Network",
+                "description": "Meet your friend here",
+                "category": "Next, Firebase, Tailwind ",
+                "image": "social_network.JPG",
+                "url": ""
+            },
+            {
+                "title": "Airbnb Clone",
+                "description": "airbnb clone",
+                "category": "Next, Firebase, Tailwind ",
+                "image": "airbnb.png",
+                "url": "https://airbnb-clone-five-silk.vercel.app/"
+            }
+        ]
+    }
+}
