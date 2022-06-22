@@ -82,19 +82,19 @@
         ],
         "skills": [
             {
-                "name": "Html/Css",
-                "level": "80%"
+                "name": "Html-Css",
+                "level": "90%"
             },
             {
                 "name": "JavaScript",
-                "level": "80%"
+                "level": "70%"
             },
             {
                 "name": "React",
                 "level": "80%"
             },
             {
-                "name": "React Native",
+                "name": "React-Native",
                 "level": "50%"
             },
             {
@@ -116,7 +116,7 @@
             },
             {
                 "name": "Node",
-                "level": "80%"
+                "level": "60%"
             }
         ],
 

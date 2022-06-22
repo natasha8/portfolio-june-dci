@@ -381,92 +381,91 @@ ul#nav li.current a {
 	border-radius: 3px 0 0 3px;
 }
 
-.git {
-  	-moz-animation: git 2s ease;
-  	-webkit-animation: git 2s ease;
-}
-.illustrator {
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.reactjs {
-  	-moz-animation: reactjs 2s ease;
-  	-webkit-animation: reactjs 2s ease;
-}
-.css {
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.vuejs {
-  	-moz-animation: vuejs 2s ease;
-  	-webkit-animation: vuejs 2s ease;
-}
-.mongodb {
-  	-moz-animation: mongodb 2s ease;
-  	-webkit-animation: mongodb 2s ease;
+.html-css {
+	-moz-animation: html 2s ease;
+	-webkit-animation: html 2s ease;
 }
 
-@-moz-keyframes git {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+.javascript {
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+.react {
+	-moz-animation: react 2s ease;
+	-webkit-animation: react 2s ease;
 }
-@-moz-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+.react-native {
+	-moz-animation: native 2s ease;
+	-webkit-animation: native 2s ease;
 }
-@-moz-keyframes css {
+.tailwind {
+  	-moz-animation: tailwind 2s ease;
+  	-webkit-animation: tailwind 2s ease;
+}
+.vue {
+	-moz-animation: vue 2s ease;
+	-webkit-animation: vue 2s ease;
+}
+
+.postgresql {
+  	-moz-animation: postgresql 2s ease;
+  	-webkit-animation: postgresql 2s ease;
+}
+
+.firebase {
+	-moz-animation: firebase 2s ease;
+	-webkit-animation: firebase 2s ease;
+}
+.node {
+	-moz-animation: node 2s ease;
+	-webkit-animation: node 2s ease;
+}
+
+@-moz-keyframes html {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 70%;  }
 }
-@-moz-keyframes vuejs {
+@-moz-keyframes react {
+	0%   { width: 0px;  }
+	100% { width: 80%;  }
+}
+@-webkit-keyframes native {
+	0%   { width: 0px;  }
+	100% { width: 50%;  }
+  }
+@-moz-keyframes tailwind {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+
+@-moz-keyframes vue {
+	0%   { width: 0px;  }
+	100% { width: 30%;  }
+  }
+
+@-moz-keyframes postgresql {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-moz-keyframes mongodb {
+
+@-moz-keyframes firebase {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes node {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}  
+
+
+
+
+
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
