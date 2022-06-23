@@ -282,11 +282,19 @@
     }
 
     /* Portfolio Section
-   /* ----------------------------------------------------------------- */
+    
+    --------------------------------------------- */
+    #portfolio {
+        padding: 0;
+    }
+    .portfolio-item .item-wrap {
+        width: 80vw;
+    }
     #portfolio-wrapper {
         flex-direction: column;
     }
     #portfolio-wrapper .columns {
+        min-width: 80vw;
         margin-bottom: 40px;
         display: flex;
         flex-direction: column;

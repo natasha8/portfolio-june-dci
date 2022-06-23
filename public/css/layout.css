@@ -72,7 +72,7 @@ header .banner-text {
 
 
 }
-.canva-small{display: none;}
+
 header .banner-text h1 {
 	font: 90px/1.1em "opensans-bold", sans-serif;
 	color:rgb(51, 0, 167)
@@ -169,6 +169,7 @@ header .scrolldown a:hover {
 	position: fixed;
 	left: 0;
 	top: 0;
+	overflow: auto;
 }
 .opaque {
 	background-color: #333;
@@ -477,8 +478,8 @@ ul#nav li.current a {
 
 #portfolio {
 	background: rgba(22, 20, 21, 0.412) url(../images/mf.jpg);
-	padding-top: 90px;
-	padding-bottom: 60px;
+	padding:10rem
+	
 	
 }
 #portfolio h1 {
@@ -499,9 +500,9 @@ ul#nav li.current a {
 	flex:1
 }
 /* Portfolio Content */
+
 #portfolio-wrapper .columns {
 	background: rgba(0, 0, 0, 0.384);
-	width:30vw;
 	height:40vh;
 	padding:0 2rem;
 	margin: 0.2rem;
@@ -513,12 +514,16 @@ ul#nav li.current a {
 	
 }
 #portfolio-wrapper .columns:hover{
-	transform: scale(1.03);
+	transform: scale(1.04) 
+	
+}
+.portfolio-item {
+	width: 30rem;
 }
 .portfolio-item .item-wrap {
 	background: rgba(255, 255, 255, 0.089);
 	height: 35vh;
-	width: 25vw;
+	width: 15vw;
 	display:flex;
 	flex-direction: column;
 	justify-content:center;
@@ -583,7 +588,7 @@ ul#nav li.current a {
 	vertical-align: bottom;
 	width: 100%; 
 	height: 60%;
-	object-fit: cover;
+	object-fit: contain;
 }
 .portfolio-item .portfolio-item-meta {
 	padding: 18px;
