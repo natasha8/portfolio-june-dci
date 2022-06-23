@@ -17,7 +17,8 @@
             {
                 "name": "linkedin",
                 "url": "https://www.linkedin.com/in/natascia-parisella/",
-                "className": "fa fa-linkedin"
+                "className": "fa fa-linkedin",
+                "target": "_blank"
             },
 
             {
