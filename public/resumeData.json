@@ -149,19 +149,20 @@
                 "url": ""
             },
             {
+                "title": "Ergot",
+                "description": "undercrostriction website for Ergot Clothing",
+                "category": "React, Tailwind ",
+                "image": "https://i.ibb.co/fSCXRkM/Schermata-da-2022-06-23-12-53-35.png",
+                "url": ""
+            },
+            {
                 "title": " Amazon Clone",
                 "description": "e-commerce website",
                 "category": "Next, Firebase, Stripe ",
                 "image": "amazon.JPG",
                 "url": "https://amazon-clone-2-0.vercel.app/"
             },
-            {
-                "title": " Social Network",
-                "description": "Meet your friend here",
-                "category": "Next, Firebase, Tailwind ",
-                "image": "social_network.JPG",
-                "url": ""
-            },
+
             {
                 "title": "Airbnb Clone",
                 "description": "airbnb clone",
