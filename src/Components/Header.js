@@ -68,15 +68,6 @@ const Header = ({ data }) => {
                     <ul className="social">{networks}</ul>
                 </div>
             </div>
-
-            <p className="scrolldown">
-                <a className="smoothscroll" href="#about">
-                    <i
-                        className="icon-down-circle"
-                        style={{ color: "purple" }}
-                    ></i>
-                </a>
-            </p>
         </header>
     );
 };
