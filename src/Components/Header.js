@@ -3,9 +3,7 @@ import Spline from "@splinetool/react-spline";
 
 const Header = ({ data }) => {
     if (data) {
-        var name = data.name;
-        var occupation = data.occupation;
-        var city = data.address.city;
+       
         var networks = data.social.map(function (network) {
             return (
                 <li key={network.name}>
@@ -62,8 +60,11 @@ const Header = ({ data }) => {
             </nav>
 
             <div className="row banner">
-                <div className="banner-text" style={{ height: "50rem" }}>
-                <Spline scene="https://prod.spline.design/rJqjWzFNitivzq2e/scene.splinecode" />
+                <div className="banner-text">
+                    <Spline
+                        scene="https://prod.spline.design/rJqjWzFNitivzq2e/scene.splinecode"
+                        className="canva-big"
+                    />
 
                     <ul className="social">{networks}</ul>
                 </div>

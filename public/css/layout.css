@@ -29,7 +29,9 @@ body {
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
+.panda {
+	border-radius: 50%;
+}
 header {
 	position: relative;
 	height: 800px;
@@ -51,7 +53,7 @@ header:before {
 	height: 100%;
 }
 header .banner {
-	display: inline-block;
+	display: inline-flex;
 	vertical-align: middle;
 	margin: 0 auto;
 	width: 85%;
@@ -60,7 +62,8 @@ header .banner {
 }
 
 header .banner-text {
-	width: 100%;
+	width: 80vw;
+	height: 50vh;
 	background-color: rgba(0, 0, 0, 0.2);
 	border-radius: 1rem;
 	padding: 1rem;
@@ -69,6 +72,7 @@ header .banner-text {
 
 
 }
+.canva-small{display: none;}
 header .banner-text h1 {
 	font: 90px/1.1em "opensans-bold", sans-serif;
 	color:rgb(51, 0, 167)
@@ -971,8 +975,10 @@ call-to-action .button {
 	margin-bottom: 6px;
 }
 #contact p.lead {
-	font: 18px/36px "opensans-light", sans-serif;
+	font: 36px "opensans-light", sans-serif;
 	padding-right: 3%;
+	text-transform: uppercase;
+	color:rgb(218, 3, 225);
 }
 #contact .header-col {
 	padding-top: 6px;

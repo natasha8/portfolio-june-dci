@@ -15,7 +15,7 @@
 @media only screen and (max-width: 900px) {
     /* header styles
    ------------------------------------------------------------------ */
-    header .banner {
+    /* header .banner {
         padding-bottom: 12px;
     }
     header .banner-text h1 {
@@ -30,9 +30,12 @@
         width: 65%;
         margin: 12px auto;
     }
-    header .banner-text canvas {
-        width: 50%;
+    header .canva-big {
+        display: none;
     }
+    header .banner-hero {
+        display: inline;
+    } */
     /* nav-wrap */
     #nav-wrap {
         font: 11px "opensans-bold", sans-serif;

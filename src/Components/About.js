@@ -1,4 +1,5 @@
 import React from "react";
+import Spline from "@splinetool/react-spline";
 
 const About = ({ data }) => {
     if (data) {
@@ -15,12 +16,11 @@ const About = ({ data }) => {
     return (
         <section id="about">
             <div className="row">
-                <div className="three columns">
-                    <img
-                        className="profile-pic"
-                        src={profilepic}
-                        alt="natypic"
-                    />
+                <div
+                    className="three columns"
+                    style={{ height: "20rem", borderRadius: "50%" }}
+                >
+                    <Spline scene="https://prod.spline.design/m1Tr9MEphUKu2nn6/scene.splinecode" className="panda"/>
                 </div>
                 <div className="nine columns main-col">
                     <h2>About Me</h2>
