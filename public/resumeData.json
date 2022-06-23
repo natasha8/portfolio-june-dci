@@ -24,7 +24,8 @@
             {
                 "name": "github",
                 "url": "https://github.com/natasha8",
-                "className": "fa fa-github"
+                "className": "fa fa-github",
+                "target": "_blank"
             }
         ]
     },
