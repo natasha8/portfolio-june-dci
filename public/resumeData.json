@@ -17,15 +17,13 @@
             {
                 "name": "linkedin",
                 "url": "https://www.linkedin.com/in/natascia-parisella/",
-                "className": "fa fa-linkedin",
-                "target": "_blank"
+                "className": "fa fa-linkedin"
             },
 
             {
                 "name": "github",
                 "url": "https://github.com/natasha8",
-                "className": "fa fa-github",
-                "target": "_blank"
+                "className": "fa fa-github"
             }
         ]
     },
